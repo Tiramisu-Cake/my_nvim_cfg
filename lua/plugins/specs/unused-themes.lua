@@ -1,0 +1,33 @@
+-- return {
+--   {
+--     'catppuccin/nvim',
+--     name     = 'catppuccin',
+--     lazy     = false,
+--     priority = 900,
+--     config   = function()
+--       require('catppuccin').setup {
+--         flavour              = 'mocha',
+--         transparent_background = true,
+--         term_colors          = true,
+--       }
+--       vim.cmd('colorscheme catppuccin')
+--     end,
+--   },
+--   {
+--     'morhetz/gruvbox',
+--     lazy   = false,
+--     config = function()
+--       vim.opt.termguicolors     = true
+--       vim.opt.background         = 'dark'
+--       vim.g.gruvbox_transparent_bg = 1
+--       vim.cmd('colorscheme gruvbox')
+--       for _, g in ipairs({
+--         'Normal', 'NormalNC', 'SignColumn',
+--         'StatusLine', 'LineNr', 'CursorLineNr',
+--         'EndOfBuffer', 'VertSplit', 'WinSeparator',
+--       }) do
+--         vim.cmd(string.format('hi %s guibg=NONE ctermbg=NONE', g))
+--       end
+--     end,
+--   },
+-- }
