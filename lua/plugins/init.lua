@@ -3,6 +3,9 @@ local specs = {
 	"plugins.specs.onedark-theme",
         "plugins.specs.cmp",
         "plugins.specs.lspconfig",
+        "plugins.specs.whichkey",
+        "plugins.specs.vim-tmux-navigator",
+        --"plugins.specs.nvim-osc52",
 }
 
 -- Bootstrapping lazy.nvim
